@@ -1,0 +1,22 @@
+.todo-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.todo-title {
+  padding-right: 10px;
+  flex-wrap: wrap;
+}
+
+.dltButton {
+  border-color: #ff0b37;
+  color: #ff0b37;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
